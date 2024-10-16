@@ -17,6 +17,7 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    z-index: 3;
 }
 
 .btn-hamburguer.ativar .linha:nth-child(1) {
@@ -27,4 +28,35 @@
 }
 .btn-hamburguer.ativar .linha:nth-child(2) {
     width: 0;
+}
+
+.menu-hamburguer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vh;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #2f2f2f;
+    transition: .4s ease;
+}
+
+.visivel {
+    left: 0;
+}
+
+.menu-hamburguer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 150px;
+}
+
+.menu-hamburguer ul a {
+    text-decoration: none;
+    color:  var(--text-color);
+    font-size: 22px;
 }
