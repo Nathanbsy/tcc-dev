@@ -1,0 +1,28 @@
+@import url("./cabecalho.css");
+@import url("./menu-hamburguer.css");
+@import url("./main.css");
+@import url("./footer.css");
+@import url("./secao.css");
+@import url("./clientes.css");
+@import url('https://fonts.googleapis.com/css2?family=Trochut:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --bg-color: #000000;
+    --text-color: #FFFFFF;
+    --color: #22331c;
+    --font-main: "Trochut";
+    --font-sec: "Poppins";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--text-color);
+    font-family: var(--font-sec);
+    background-color: var(--bg-color);
+    overflow-x: hidden;
+}

@@ -1,0 +1,30 @@
+.linha {
+    width: 55px;
+    height: 2px;
+    background-color: white;
+    display: block;
+    margin: 0.5rem auto;
+    transform-origin: center;
+    position: relative;
+    transition: .2s;
+}
+
+.btn-hamburguer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-hamburguer.ativar .linha:nth-child(1) {
+    transform: translateY(20px) rotate(45deg);
+}
+.btn-hamburguer.ativar .linha:nth-child(3) {
+    transform: translateY(-16px) rotate(-45deg);
+}
+.btn-hamburguer.ativar .linha:nth-child(2) {
+    width: 0;
+}
