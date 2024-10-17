@@ -18,14 +18,16 @@
                 <span class="linha"></span>
             </button>
             <aside class="menu-hamburguer" id="menuH">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="sobre">Sobre</a></li>
-                    <li><a href="contato">Contato</a></li>
+                <ul class="lista_menu">
+                    <li><a onclick="mostrarMenu()" href="#">Home</a></li>
+                    <li><a onclick="mostrarMenu()" href="sobre">Sobre</a></li>
+                    <li><a onclick="mostrarMenu()" href="contato">Contato</a></li>
                 </ul>
             </aside>
-            <ul>
-                <li></li>
+            <ul class="lista">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
             <a href="#"><img class="logo" src="./img/logo.svg" alt="EGD"></a>
         </nav>
@@ -79,45 +81,47 @@
     <section class="clientes-container">
         <div class="clientes">
             <h3>Seja nosso Cliente</h3>
-            <div data-aos="fade-right" data-aos-delay="100" class="card-clientes">
-                <div class="card-img">
-                    <img src="./img/portrait-youth-with-freckles-beauty-marks.jpg" alt="Imagem">
+            <div class="container-cards">
+                <div data-aos-delay="100" class="card-clientes">
+                    <div class="card-img">
+                        <img src="./img/portrait-youth-with-freckles-beauty-marks.jpg" alt="Imagem">
+                    </div>
+                    <div class="card-meio">
+                        <img class="estrela" src="./img/icone-estrela.png" />
+                        <p>5.0</p>
+                    </div>
+                    <div class="card-textos">
+                        <p>Venha conhecer as nossas funcionalidades e especialidades
+                            lorem epsom de abril com feijao</p>
+                    </div>
                 </div>
-                <div class="card-meio">
-                    <img class="estrela" src="./img/icone-estrela.png" />
-                    <p>5.0</p>
+                <div data-aos-delay="200" class="card-clientes">
+                    <div class="card-img">
+                        <img src="./img/imagem-verde-jardim.jpg" alt="Imagem">
+                    </div>
+                    <div class="card-meio">
+                        <img class="estrela" src="./img/icone-estrela.png" />
+                        <p>5.0</p>
+                    </div>
+                    <div class="card-textos">
+                        <p>Venha conhecer as nossas funcionalidades e especialidades
+                            lorem epsom de abril com feijao</p>
+                    </div>
                 </div>
-                <div class="card-textos">
-                    <p>Venha conhecer as nossas funcionalidades e especialidades
+                <div data-aos-delay="300" class="card-clientes">
+                    <div class="card-img">
+                        <img src="./img/portrait-youth-with-freckles-beauty-marks.jpg" alt="Imagem">
+                    </div>
+                    <div class="card-meio">
+                        <img class="estrela" src="./img/icone-estrela.png" />
+                        <p>5.0</p>
+                    </div>
+                    <div class="card-textos">
+                        <p>Venha conhecer as nossas funcionalidades e especialidades
                         lorem epsom de abril com feijao</p>
+                    </div>
                 </div>
-            </div>
-            <div data-aos="fade-right" data-aos-delay="200" class="card-clientes">
-                <div class="card-img">
-                    <img src="./img/imagem-verde-jardim.jpg" alt="Imagem">
-                </div>
-                <div class="card-meio">
-                    <img class="estrela" src="./img/icone-estrela.png" />
-                    <p>5.0</p>
-                </div>
-                <div class="card-textos">
-                    <p>Venha conhecer as nossas funcionalidades e especialidades
-                        lorem epsom de abril com feijao</p>
-                </div>
-            </div>
-            <div data-aos="fade-right" data-aos-delay="300" class="card-clientes">
-                <div class="card-img">
-                    <img src="./img/portrait-youth-with-freckles-beauty-marks.jpg" alt="Imagem">
-                </div>
-                <div class="card-meio">
-                    <img class="estrela" src="./img/icone-estrela.png" />
-                    <p>5.0</p>
-                </div>
-                <div class="card-textos">
-                    <p>Venha conhecer as nossas funcionalidades e especialidades
-                    lorem epsom de abril com feijao</p>
-                </div>
-            </div>
+            </div> 
         </div>
     </section>
 

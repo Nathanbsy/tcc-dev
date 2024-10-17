@@ -10,14 +10,21 @@ nav {
     padding: 1rem;
     gap: 55vw;
     width: 100%;
-    z-index: 5;
+    z-index: 1;
 }
 
-ul {
+.lista {
     display: none;
 }
 
 .logo {
-    
     width: 5.5rem;
+}
+
+@media (width >= 1100px) {
+    .lista {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

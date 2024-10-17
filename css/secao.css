@@ -4,7 +4,7 @@ section {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: fit-content;
 }
 
 .cards {
@@ -26,13 +26,14 @@ section {
 
 .card-head {
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     align-items: center;
-    gap: 2rem;
+    gap: 1.25rem;
 }
 
 .card-head hr {
     width: 250px;
+    flex-grow: 1;
 }
 
 .card-head h3 {
