@@ -28,7 +28,7 @@ main {
 }
 
 h1 {
-    font-size: 10rem;
+    font-size: 13rem;
     font-weight: 500;
     color: white;
     font-family: var(--font-main);
@@ -51,18 +51,20 @@ h2 {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    width: 110%;
+    width: 130%;
     top: 20%;
 }
 
 .folha-preta {
-    width: 80px;
-    rotate: -42deg;
+    margin-top: 30px;
+    width: 170px;
+    rotate: 32deg;
 }
 
 .diff {
-    rotate: 0deg;
-    transform: translateY(30px);
+    margin-top: 30px;
+    rotate: 20deg;
+    transform: rotate(45deg);
 }
 
 .folha {
@@ -70,19 +72,16 @@ h2 {
     opacity: .5;
     position: absolute;
     bottom: 0;
-    left: -100px;
+    left: 30px;
     rotate: 10deg;
+    transform: rotateY(180deg);
 }
 
 .folha-invertida {
     width: 250px;
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
     opacity: .5;
     position: absolute;
     bottom: 0;
-    right: -100px;
+    right: -40px;
     rotate: -20deg;
 }
