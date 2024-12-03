@@ -1,0 +1,87 @@
+.container-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    flex-direction: column;
+    background-color: var(--color);
+    width: 350px;
+    height: 500px;
+    gap: 50px;
+    border-radius: 8px;
+    padding: 0 2rem;
+}
+
+.container-mensagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input {
+    padding: 8px;
+    border: none;
+    border-radius: 24px;
+}
+
+textarea {
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    height: 90px;
+}
+
+.container-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-botao button {
+    background-color: #37532d;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 24px;
+    transition: all .4s ease;
+    color: white;
+    cursor: pointer;
+}
+
+.container-botao button:hover {
+    background-color: var(--hover-color);
+    transform: translateY(-5px);
+}
+
+.contato-textos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contato-textos h2{
+    font-size: 50px;
+}
+
+.contato-textos p {
+    font-size: 22px;
+}

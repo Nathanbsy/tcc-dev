@@ -21,8 +21,8 @@
             <aside class="menu-hamburguer" id="menuH">
                 <ul class="lista_menu">
                     <li><a onclick="mostrarMenu()" href="#">Home</a></li>
-                    <li><a onclick="mostrarMenu()" href="sobre">Sobre</a></li>
-                    <li><a onclick="mostrarMenu()" href="contato">Contato</a></li>
+                    <li><a onclick="mostrarMenu()" href="#sobre">Sobre</a></li>
+                    <li><a onclick="mostrarMenu()" href="#contato">Contato</a></li>
                 </ul>
             </aside>
             <div class="redes-sociais">
@@ -32,13 +32,11 @@
             </div>
             <ul class="lista">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
             <a href="#"><img class="logo" src="./img/logo.svg" alt="EGD"></a>
-
         </nav>
-
     </header>
     <main>
         <div class="container-principal">
@@ -69,8 +67,7 @@
                 </div>
                 <div class="card-footer">
                     <h4>Para todos</h4>
-                    <p>Venha conhecer as nossas funcionalidades e especialidades
-                        lorem epsom de abril com feijao</p>
+                    <p>Venha conhecer as nossas funcionalidades, especialidades dos nossos codigos e a nossa qualidade de trabalho!</p>
                 </div>
             </div>
 
@@ -87,6 +84,13 @@
         </div>
     </section>
 
+    <section id="sobre" class="container-sobre">
+        <div class="sobre">
+            <h2>Sobre nós</h2>
+            <p>Na EDG, nossa missão é entregar inovação, qualidade e transparência em cada projeto. Trabalhamos com dedicação e paixão para transformar ideias em soluções digitais excepcionais. Todos os nossos sites são desenvolvidos com design responsivo, garantindo uma experiência impecável em qualquer dispositivo, seja desktop, tablet ou smartphone. Acreditamos que acessibilidade é essencial para conectar pessoas e empresas de maneira eficaz. Além disso, nos comprometemos com a manutenção a longo prazo, assegurando que nossos sites permaneçam atualizados, seguros e funcionais. Aqui, responsabilidade e cuidado são parte do nosso DNA. Confie na EDG para criar projetos que vão além do esperado. Transformamos suas necessidades em soluções digitais extraordinárias!</p>
+        </div>
+    </section>
+
     <section class="clientes-container">
         <div class="clientes">
             <h3>Seja nosso Cliente</h3>
@@ -100,8 +104,7 @@
                         <p>5.0</p>
                     </div>
                     <div class="card-textos">
-                        <p>Venha conhecer as nossas funcionalidades e especialidades
-                            lorem epsom de abril com feijao</p>
+                        <p>Minha empresa alavancou desde que contratei essa equipe!</p>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="200" class="card-clientes">
@@ -113,8 +116,7 @@
                         <p>5.0</p>
                     </div>
                     <div class="card-textos">
-                        <p>Venha conhecer as nossas funcionalidades e especialidades
-                            lorem epsom de abril com feijao</p>
+                        <p>Gostei muito do design minimalista, recomendo seus serviços</p>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="300" class="card-clientes">
@@ -126,16 +128,103 @@
                         <p>5.0</p>
                     </div>
                     <div class="card-textos">
-                        <p>Venha conhecer as nossas funcionalidades e especialidades
-                            lorem epsom de abril com feijao</p>
+                        <p>Quero comprar novamente um site com vocês!!</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="servicos-container">
+        <div class="card hidden">
+            <div class="img-box">
+                <img src="./img/projeto2.png">
+            </div>
+            <div class="content">
+                <h2>EatNow</h2>
+                <p>
+                    Site desenvolvido para um cliente responsivo para uma empresa de delivery de comida.
+                </p>
+
+                <div class="linksprojetos"> 
+                    <a href="https://maykon1227mu.github.io/TCM-eatnow/" target="_blank" class="verde"><i class="bi bi-browser-chrome"></i></a>
+                    <a class="verde" href="https://maykon1227mu.github.io/TCM-eatnow/" target="ww_blank"><i class="bi bi-github"></i></a>
+                </div>
+                
+                <p style="color: rgb(87, 180, 102)">Finalizado</p>
+            </div>
+            
+        </div>
+        <div class="card hidden">
+            <div class="img-box">
+                <img src="./img/projeto1.png">
+            </div>
+            <div class="content">
+                <h2>LaPallazo</h2>
+                <p>
+                    Site de Comida Italiana, desenvolvido no primeiro semestre de 2024.
+                </p>
+
+                <div class="linksprojetos"> 
+                    <a href="https://nathanbsy.github.io/" target="_blank" class="verde"><i class="bi bi-browser-chrome"></i></a>
+                    <a class="verde" href="https://nathanbsy.github.io/" target="ww_blank"><i class="bi bi-github"></i></a>
+                </div>
+                
+                <p style="color: rgb(87, 180, 99)">Finalizado</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contato" class="container-contato">
+        <div class="contato">
+            <div class="contato-textos">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco para mais Informações!</p>
+            </div>
+            
+            <form action="" method="post" class="formulario">
+                <div class="container-inputs">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" placeholder="Digite seu nome">
+                </div>
+                <div class="container-inputs">
+                    <label for="email">Email: </label>
+                    <input type="text" name="email" placeholder="Digite seu email">
+                </div>
+                <div class="container-mensagem">
+                    <label for="mensagem">Mensagem: </label>
+                    <textarea name="mensagem" style="resize: none;" maxlength="100" placeholder="Digite sua mensagem"></textarea>
+                </div>
+                <div class="container-botao">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
 
     <footer>
-
+        <div class="info-footer">
+            <h1>Informações</h1>
+            <ul>
+                <a href=""><li>Faq</li></a>
+                <a href=""><li>Sobre nós</li></a>
+                <a href=""><li>História</li></a>
+            </ul>
+        </div>
+        <div class="projetos-footer">
+            <h1>Projetos</h1>
+            <ul>
+                <a href=""><li>EatNow</li></a>
+                <a href=""><li>LaPallazo</li></a>
+                <a href=""><li>LispCont</li></a>
+            </ul>
+        </div>
+        <div class="redes_sociais">
+            <h1 class="titulo_footer">Redes Sociais</h1>
+            <a class="social_ancora" href="https://www.instagram.com" target="_blank"><i id="social_insta" class="bi bi-instagram"></i></a>
+            <a class="social_ancora" href="https://www.facebook.com" target="_blank"><i id="social_face" class="bi bi-facebook"></i></a>
+            <a class="social_ancora" href="https://web.whatsapp.com" target="_blank"><i id="social_what" class="bi bi-whatsapp"></i></a>
+        </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

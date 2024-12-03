@@ -96,3 +96,115 @@ section {
         margin-right: 0;
     }
 }
+
+.servicos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    color: white;
+    font-family: 'Poppins';
+    height: auto;
+}
+
+.card {
+    margin-top: 30vh;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    position: relative;
+    background-color: #222222;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+    display: flex;
+}
+
+.card:hover {
+    height: 500px;
+}
+
+.card .img-box {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 0px;
+    transition: 0.5s;
+}
+
+.card:hover .img-box {
+    top: -100px;
+    scale: 0.75;
+}
+
+.card .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.content p {
+    padding: 20px;
+}
+
+.card:hover .content {
+    top: 130px;
+    height: 400px;
+}
+
+.card .linksprojetos .logossite {
+   background: black;
+   padding: 5px 9px;
+   font-size: 22px;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 100%;
+   transition: .2s;
+}
+.card .linksprojetos .logossite:hover {
+    background-color: #3f3f3f;
+}
+.card .linksprojetos .logossite {
+    background: black;
+    padding: 5px 9px;
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 100%;
+    transition: .2s;
+ }
+ .card .linksprojetos .logossite:hover {
+     background-color: #3f3f3f;
+ }
+ 
+ .verde {
+     background-color: rgb(52, 141, 49);
+     padding: 5px 9px;
+     font-size: 22px;
+     color: #fff;
+     text-decoration: none;
+     border-radius: 100%;
+     transition: .2s;
+ }
+ .verde i {
+    color: white;
+ }
+ .verde:hover {
+     background-color: rgb(36, 161, 67);
+ }
