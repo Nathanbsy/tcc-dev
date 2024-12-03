@@ -31,8 +31,13 @@ body {
     background-color: var(--bg-color);
     overflow-x: hidden;
     scroll-behavior: smooth;
+    width: 100vw;
 }
 
 *, html {
     scroll-behavior: smooth !important;
+}
+
+html, body {
+    overflow-x: hidden;
 }

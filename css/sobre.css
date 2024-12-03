@@ -29,3 +29,11 @@
     }
 }
 
+@media (width <= 550px) {
+    .sobre {
+        padding: 1rem 8vh;
+    }
+    .sobre p {
+        font-size: 15px;
+    }
+}
