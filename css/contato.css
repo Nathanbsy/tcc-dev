@@ -85,3 +85,13 @@ textarea {
 .contato-textos p {
     font-size: 22px;
 }
+
+@media (width <= 550px) {
+    .contato-textos {
+        text-align: center;
+        
+    }
+    .contato-textos p {
+        font-size: 18px;
+    }
+}

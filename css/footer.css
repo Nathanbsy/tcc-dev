@@ -1,7 +1,7 @@
 footer {
     background-color: var(--color);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: auto;
@@ -43,4 +43,13 @@ footer i {
 }
 #social_what:hover{
     background: linear-gradient(30deg, #1fa70d, #2cdb3b, #0cb868, #30a50c);
+}
+
+@media (width <= 550px) {
+    .info-footer h1, .projetos-footer h1, .redes_sociais h1 {
+        font-size: 16px;
+    }
+    .info-footer li, .projetos-footer li{
+        font-size: 15px;
+    }
 }
