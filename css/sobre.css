@@ -23,7 +23,7 @@
     font-size: 18px;
 }
 
-@media (width <= 800px) {
+@media (width <= 1000px) {
     .sobre {
         padding: 1rem 12vh;
     }
@@ -31,9 +31,10 @@
 
 @media (width <= 550px) {
     .sobre {
-        padding: 1rem 8vh;
+        padding: 2rem 8vh;
     }
     .sobre p {
         font-size: 15px;
     }
+    
 }

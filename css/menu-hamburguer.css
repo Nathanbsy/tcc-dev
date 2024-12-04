@@ -44,7 +44,7 @@
     height: 100vh;
     position: fixed;
     top: 0;
-    left: -250px;
+    left: -350px;
     background-color: #2f2f2f;
     transition: .4s ease;
 }

@@ -52,4 +52,8 @@ footer i {
     .info-footer li, .projetos-footer li{
         font-size: 15px;
     }
+
+    footer {
+        padding: 5px;
+    }
 }

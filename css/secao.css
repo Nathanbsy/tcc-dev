@@ -208,3 +208,12 @@ section {
  .verde:hover {
      background-color: rgb(36, 161, 67);
  }
+
+ @media (width <= 550px) {
+    .img3 img {
+        height: 90%;
+    }
+    .img1 img, .img2 img {
+        height: 80%;
+    }
+ }
